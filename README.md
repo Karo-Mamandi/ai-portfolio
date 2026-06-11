@@ -1,2 +1,3 @@
 # Karo_Mamandiazar
-- Aspiring AI &amp; Machine Learning Engineer
+Hi therek, I'm Karo👋️
+## Aspiring AI & Machine Learning Enginear
