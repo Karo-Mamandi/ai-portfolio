@@ -1,4 +1,4 @@
-# Import required libraries
+# Import required libraries 
 import pandas as pd
 import asyncio  # For asynchronous operations
 from googletrans import Translator  # For Google Translate API
