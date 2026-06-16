@@ -23,7 +23,10 @@ The program uses nested loops to calculate and display all multiplication combin
 | 1 * 8 = 8 |
 | 1 * 9 = 9 |
 | 1 * 10 = 10 |
-
+---
+---
+| output Example |
+|---|
 | 2 * 1 = 2 |
 | 2 * 2 = 4 |
 | 2 * 3 = 6 |
