@@ -1,7 +1,5 @@
 # Calculator-GUI With Python
 
-A graphical calculator application built with Kivy framework, featuring a clean interface and basic arithmetic operations.
-
 ## Description
 
 This is a desktop calculator application with a graphical user interface (GUI) built using Kivy. It provides a user-friendly way to perform basic calculations with buttons for digits, operators, and special functions.
@@ -27,10 +25,9 @@ This is a desktop calculator application with a graphical user interface (GUI) b
 
 ```bash
 pip install kivy
-```
 
 ## Clone and Run
-
 git clone <repository-url>
 cd Calculator-GUI
 python Calculator-GUI.py
+```
