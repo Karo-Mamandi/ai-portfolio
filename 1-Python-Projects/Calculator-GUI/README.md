@@ -25,9 +25,7 @@ This is a desktop calculator application with a graphical user interface (GUI) b
 
 ```bash
 pip install kivy
-
-## Clone and Run
-git clone <repository-url>
-cd Calculator-GUI
-python Calculator-GUI.py
+```
+```bash
+Python calculator-gui.py
 ```
