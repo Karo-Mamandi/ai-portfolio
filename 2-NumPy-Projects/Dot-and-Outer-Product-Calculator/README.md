@@ -20,7 +20,10 @@ The program:
 
 ### Dot Product
 ##### The dot product (scalar product) multiplies corresponding elements and sums them:
-```v1 · v2 = (1×4) + (2×5) + (3×6) = 4 + 10 + 18 = 32```
+```
+v1 · v2 = (1×4) + (2×5) + (3×6) = 4 + 10 + 18 = 32
+```
+
 Result is a **single number** (scalar).
 
 ### Outer Product
