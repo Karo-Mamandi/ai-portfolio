@@ -25,10 +25,11 @@ Result is a **single number** (scalar).
 
 ### Outer Product
 ##### The outer product multiplies each element of v1 with each element of v2:
-``` v1 ⊗ v2 = [1,2,3]ᵀ × [4,5,6]
-            = [[1×4, 1×5, 1×6],
-               [2×4, 2×5, 2×6],
-               [3×4, 3×5, 3×6]]
+```
+v1 ⊗ v2 = [1,2,3]ᵀ × [4,5,6]
+        = [[1×4, 1×5, 1×6],
+           [2×4, 2×5, 2×6],
+           [3×4, 3×5, 3×6]]
 ```
 
 Result is a **matrix** (2D array).
