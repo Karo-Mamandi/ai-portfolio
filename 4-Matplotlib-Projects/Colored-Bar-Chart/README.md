@@ -43,34 +43,6 @@ color=['#F53', '#3F5', '#35F', '#F3A', '#FD3']
 color=['tomato', 'limegreen', 'royalblue', 'hotpink', 'gold']
 ```
 
-## Custom Color Maps
-
-```python
-# Using colormap
-import matplotlib.pyplot as plt
-import numpy as np
-
-colors = plt.cm.viridis(np.linspace(0, 1, 5))
-plt.bar(months, income, color=colors)
-
-# Using different colormaps
-plt.cm.Reds         # Red shades
-plt.cm.Blues        # Blue shades
-plt.cm.Greens       # Green shades
-plt.cm.Rainbow      # Rainbow colors
-plt.cm.Paired       # Paired colors
-```
-
-## Adding Color Bar
-
-```python
-# Create color gradient
-import numpy as np
-colors = plt.cm.viridis(np.linspace(0, 1, len(months)))
-bars = plt.bar(months, income, color=colors)
-plt.colorbar(bars)
-```
-
 ## Requirements
 ```
 matplotlib>=3.0.0
