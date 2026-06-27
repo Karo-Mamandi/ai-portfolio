@@ -56,17 +56,8 @@ email-spam-detection/
 ├── data/
 │ └── spam.csv # Dataset
 │
-├── models/
-│ ├── spam_model.pkl # Trained model
-│ └── vectorizer.pkl # TF-IDF vectorizer
-│
 ├── notebooks/
 │ └── spam_detection.ipynb # Jupyter notebook
-│
-├── src/
-│ ├── preprocess.py # Data cleaning
-│ ├── train.py # Model training
-│ └── predict.py # Prediction script
 │
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
