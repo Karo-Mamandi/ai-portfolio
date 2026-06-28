@@ -51,13 +51,13 @@ This project builds a classification model to predict diabetes in patients using
 
 ## 📁 Project Structure
 ```
-Diabetes-Prediction-ML/
+Diabetes Prediction/
 │
 ├── data/
 │ └── diabetes.csv # Dataset
 │
 ├── notebooks/
-│ └── diabetes_prediction.ipynb # Jupyter notebook
+│ └── diabetes-prediction.ipynb # Jupyter notebook
 │
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
