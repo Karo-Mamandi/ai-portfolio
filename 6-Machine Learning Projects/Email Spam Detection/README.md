@@ -41,7 +41,7 @@ Email Spam Detection/
 │ └── spam.csv # Dataset
 │
 ├── notebooks/
-│ └── spam-email-detection.ipynb # Jupyter notebook
+│ └── spam_detection.ipynb # Jupyter notebook
 │
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
