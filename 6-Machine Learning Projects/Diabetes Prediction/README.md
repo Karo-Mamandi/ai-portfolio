@@ -65,15 +65,15 @@ Diabetes-Prediction-ML/
 
 ##  How It Works
 
-1.Data Preprocessing: Clean and prepare the dataset
+1. Data Preprocessing: prepare the dataset
 
-2.Feature Scaling: Standardize features using StandardScaler
+2. Feature Scaling: Standardize features using StandardScaler
 
-3.Model Training: Train SVM classifier on scaled data
+3. Model Training: Train SVM classifier on scaled data
 
-4.Evaluation: Measure accuracy on test data
+4. Evaluation: Measure accuracy on test data
 
-5.Prediction: Classify new patient data
+5. Prediction: Classify new patient data
 
 # 👤 Author
 #### Karo Mamandiazar
