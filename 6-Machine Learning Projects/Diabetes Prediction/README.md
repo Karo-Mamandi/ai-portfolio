@@ -4,7 +4,7 @@ A machine learning project that predicts whether a patient has diabetes based on
 
 ---
 
-## 🎯 Project Overview
+## 🎯 Project Overview 
 
 This project builds a classification model to predict diabetes in patients using the **Pima Indians Diabetes Database**. The model uses **Support Vector Machine (SVM)** with feature scaling to achieve optimal performance.
 
