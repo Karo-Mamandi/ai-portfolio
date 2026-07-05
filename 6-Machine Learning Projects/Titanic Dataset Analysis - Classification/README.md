@@ -58,8 +58,9 @@ This project builds and compares multiple machine learning models to predict Tit
 Titanic-Survival-Prediction/
 │
 ├── data/
-│ ├── train.csv # Training data
-│ └── test.csv # Test data
+│   ├── train.csv              # Training data
+│   ├── test.csv               # Test data
+│   └── gender_submission.csv  # Sample submission format (reference only)
 │
 ├── notebooks/
 │ └── titanic_survival.ipynb # Main notebook
