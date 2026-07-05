@@ -54,6 +54,7 @@ This project builds and compares multiple machine learning models to predict Tit
 ---
 
 ## 📁 Project Structure
+```
 Titanic-Survival-Prediction/
 │
 ├── data/
@@ -65,6 +66,7 @@ Titanic-Survival-Prediction/
 │
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
+```
 
 ## 👤 Author
 #### Karo Mamandiazar
