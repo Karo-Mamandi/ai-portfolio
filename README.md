@@ -59,4 +59,4 @@ I'm always learning, building, and sharing my progress—one project at a time.
 
 📫️ Connect With Me
 * Email: karomamandiazar@gmail.com
-* LinkedIn: https://www.linkedin.com/in/karo-mamandiazar
+* LinkedIn: https://www.linkedin.com/in/karo-mamandi
