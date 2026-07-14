@@ -103,3 +103,7 @@ model = pickle.load(open("model.pkl", "rb"))
 ```
 # I can't upload the Model because its size is too large.
 
+
+## 👤 Author
+### Karo Mamandiazar
+
