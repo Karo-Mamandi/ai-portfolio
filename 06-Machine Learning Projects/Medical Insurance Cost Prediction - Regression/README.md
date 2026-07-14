@@ -75,7 +75,7 @@ Models were evaluated using:
 
 ## Project Structure
 
-```
+```Rename corr.png to Corr.png
 Medical-Insurance-Prediction/
 │
 ├── notebooks/medical_insurance_cost_prediction.ipynb
@@ -101,7 +101,7 @@ Load the model
 ```python
 model = pickle.load(open("model.pkl", "rb"))
 ```
-# I can't upload the Model because its size is too large.
+### I can't upload the Model because its size is too large.
 
 
 ## 👤 Author
