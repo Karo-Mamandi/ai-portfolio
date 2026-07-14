@@ -78,9 +78,8 @@ Models were evaluated using:
 ```
 Medical-Insurance-Prediction/
 │
-├── notebooks/Medical_Insurance.ipynb
-├── data/insurance.csv
-├── model_saved/model.pkl
+├── notebooks/medical_insurance_cost_prediction.ipynb
+├── data/medical_insurance.csv
 ├── requirements.txt
 ├── README.md
 └── images/..
@@ -102,7 +101,5 @@ Load the model
 ```python
 model = pickle.load(open("model.pkl", "rb"))
 ```
+# I can't upload the Model because its size is too large.
 
-## License
-
-This project is intended for educational purposes.
