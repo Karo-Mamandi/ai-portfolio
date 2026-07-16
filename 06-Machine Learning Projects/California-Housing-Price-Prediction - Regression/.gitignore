@@ -1,0 +1,42 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+ 
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# IDE
+.idea/
+.vscode/
+*.swp
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Environment variables / secrets
+.env
+*.env
+ 
+# Logs
+*.log
+ 
+# Large data files (uncomment if you add raw datasets)
+# data/*.csv
+# data/*.parquet
+ 
+# Docker
+*.pid
