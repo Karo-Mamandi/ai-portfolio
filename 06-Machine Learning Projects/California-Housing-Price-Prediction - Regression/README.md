@@ -110,11 +110,13 @@ Capped houses (~4.68% of data) showed ~31% higher prediction error (MAE $35,002 
 The final model is served via a **FastAPI** REST API with a `/predict` endpoint, containerized with **Docker** for portable, reproducible deployment.
  
 ---
+
+
  
 ## 🗄️ Project Structure
  
 ```
-California-Housing-With-AI/
+California-Housing-Price-Prediction - Regression/
 │
 ├── README.md
 ├── requirements.txt
@@ -124,7 +126,7 @@ California-Housing-With-AI/
 ├── LICENSE
 │
 ├── notebooks/
-│   └── practice.ipynb          # EDA, feature engineering, training & tuning
+│   └── california-housing-price-prediction.ipynb          # EDA, feature engineering, training & tuning
 │
 ├── app.py                      # FastAPI application
 ├── preprocessing.py            # Feature engineering (shared: training & inference)
@@ -142,8 +144,8 @@ California-Housing-With-AI/
 ### Option A: Local (Python + venv)
  
 ```bash
-git clone https://github.com/<your-username>/California-Housing-With-AI.git
-cd California-Housing-With-AI
+git clone https://github.com/<your-username>/California-Housing-Price-Prediction - Regression.git
+cd California-Housing-Price-Prediction - Regression
  
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
@@ -156,8 +158,8 @@ uvicorn app:app --reload
 ### Option B: Docker (recommended)
  
 ```bash
-git clone https://github.com/<your-username>/California-Housing-With-AI.git
-cd California-Housing-With-AI
+git clone https://github.com/<your-username>/California-Housing-Price-Prediction - Regression.git
+cd California-Housing-Price-Prediction - Regression
  
 docker build -t housing-price-api .
 docker run -p 8000:8000 housing-price-api
