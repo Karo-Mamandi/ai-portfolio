@@ -194,3 +194,6 @@ Issues and PRs welcome. If you're changing the model, please rerun `spam-email-d
 ## License
 
 [MIT](LICENSE) — do whatever you want with it, just don't blame me if it lets a prize scam through.
+
+## 👤 Author
+### Karo Mamandiazar
