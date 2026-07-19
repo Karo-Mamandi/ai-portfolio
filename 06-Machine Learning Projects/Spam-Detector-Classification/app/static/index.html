@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mail Sorter — Spam Detector</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <div class="corkboard">
+    <header class="masthead">
+      <div class="masthead-inner">
+        <span class="postmark" aria-hidden="true">
+          <svg viewBox="0 0 90 90" width="60" height="60">
+            <circle cx="45" cy="45" r="42" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="45" cy="45" r="34" fill="none" stroke="currentColor" stroke-width="1"/>
+            <text x="45" y="30" text-anchor="middle" font-size="9" fill="currentColor" font-family="'Special Elite', monospace">SORTED</text>
+            <text x="45" y="63" text-anchor="middle" font-size="9" fill="currentColor" font-family="'Special Elite', monospace">BY ML</text>
+          </svg>
+        </span>
+        <div class="masthead-text">
+          <h1>The&nbsp;Mail&nbsp;Sorter</h1>
+          <p class="tagline">Drop a message in the slot. We'll tell you if it belongs in the bin.</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="desk">
+      <section class="envelope-card" id="envelope-card">
+        <div class="envelope-flap" aria-hidden="true"></div>
+
+        <div class="letter">
+          <label for="message" class="letter-label">Paste the message text</label>
+          <textarea id="message" placeholder="e.g. CONGRATULATIONS! You've won a $1000 gift card, click here to claim now..." maxlength="20000"></textarea>
+
+          <div class="controls">
+            <button id="sort-btn" type="button">
+              <span class="btn-label">Sort this mail</span>
+              <span class="btn-stamp" aria-hidden="true">&#9993;</span>
+            </button>
+            <button id="clear-btn" type="button" class="ghost-btn">Clear</button>
+          </div>
+
+          <p id="error-msg" class="error-msg" hidden></p>
+
+          <div id="stamp" class="stamp" hidden>
+            <span id="stamp-text"></span>
+          </div>
+
+          <div id="confidence-row" class="confidence-row" hidden>
+            <span class="confidence-label">confidence</span>
+            <div class="confidence-track">
+              <div id="confidence-fill" class="confidence-fill"></div>
+            </div>
+            <span id="confidence-value" class="confidence-value"></span>
+          </div>
+        </div>
+      </section>
+
+      <aside class="ledger">
+        <h2>Sorting log</h2>
+        <ol id="log-list" class="log-list">
+          <li class="log-empty">Nothing sorted yet.</li>
+        </ol>
+      </aside>
+    </main>
+
+    <footer class="fine-print">
+      <span id="model-name">model: —</span>
+    </footer>
+  </div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
