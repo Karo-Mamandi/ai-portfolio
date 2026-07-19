@@ -1,0 +1,13 @@
+{
+  "model_name": "SVM",
+  "label_map": {
+    "0": "spam",
+    "1": "ham"
+  },
+  "metrics": {
+    "test_accuracy": 0.9854932301740812,
+    "spam_precision": 0.9328358208955224,
+    "spam_recall": 0.9541984732824428,
+    "spam_f1": 0.9433962264150944
+  }
+}
