@@ -266,16 +266,7 @@ Mall-Customers-Segmentation/
 ├── data/
 │   └── Mall_Customers.csv
 │
-├── images/
-│   ├── elbow_method.png
-│   ├── silhouette_scores.png
-│   ├── dendrogram.png
-│   ├── kmeans_clusters.png
-│   ├── hierarchical_clusters.png
-│   └── dbscan_clusters.png
-│
 ├── Mall_Customers_Segmentation.ipynb
-├── requirements.txt
 └── README.md
 ```
 
